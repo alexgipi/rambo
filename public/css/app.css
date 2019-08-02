@@ -1,0 +1,185 @@
+body {
+    background-color: #eee;
+}
+
+.container-body {
+    margin-top: 35px;
+}
+
+[id*="admin"] {
+    padding: 50px;
+    margin: 10px;
+}
+
+.a-dashboards {
+    color: silver;
+}
+
+[alt*=team] {
+    height: 200px;
+    width: 200px;
+}
+
+.md-avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+}
+
+div .label {
+    width: 150px;
+    margin-top: 1%;
+}
+
+.twitter-timeline {
+    width:400px;
+    height:186px;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.competitions-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.competitions {
+    margin-right: 5%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.competition-image {
+    display: inline-block;
+    vertical-align: center;
+
+}
+
+.matches:first-of-type {
+    margin-top: 5%;
+}
+
+.matches {
+    margin-top: 1%;
+}
+
+.match {
+    margin-top: 2%;
+}
+
+
+/*GENERALES*/
+.border-radius-50 {
+    border-radius: 50px;
+}
+
+
+/* MENU TOP */
+
+.navbar {
+    background: url(http://fcf.cat/img/header-shadow.png) #e1261c;
+    height: 70px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link.activo {
+    font-weight: bold;
+    border-bottom: 2px solid;
+} 
+
+.btn-login {
+    background: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 12px;
+    padding: 5px 15px !important;
+    color: #2ea3ce !important;
+}
+
+.btn-registro {
+    background: rgb(51, 181, 229);
+    border-radius: 5px;
+    margin-left: 12px;
+    padding: 5px 15px !important;
+    border: 1px solid #ffffffa1;
+    font-weight: bold;
+}
+
+
+/*LISTADO EQUIPOS*/
+
+.listado-equipos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding: 0 15px;
+    grid-gap: 20px;
+}
+
+.listado-equipos li {
+
+}
+
+.listado-equipos li img {
+    margin: 20px auto 0;
+    object-fit: contain;
+}
+
+.listado-equipos h4 {
+    text-align: center;
+}
+
+
+/*PAGINA DE INICIO*/
+
+.list-group-item img {
+    height: 40px;
+}
+
+.competiciones-inicio {
+    display: grid;
+    margin-bottom: 25px;
+    grid-template-columns: repeat(4, minmax(250px, 1fr));
+    grid-gap: 10px;
+}
+
+.competicion-inicio {
+    padding: 10px;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.competicion-inicio img {
+    width: 100%;
+}
+
+
+/*JUGADORES*/
+
+.jugador {
+    padding: 20px 45px;
+}
+
+.jugador .row {
+    align-items: center;
+}
+
+.jugador p {
+    margin: 0;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.jugador img {
+    object-fit: contain;
+    height: 65px !important;
+    width: 65px !important;
+}
+
+.botones-usuario .btn {
+    border-radius: 50px !important;
+}
